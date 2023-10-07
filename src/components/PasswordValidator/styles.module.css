@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.input {
+  height: 20px;
+}
+
+.validationsContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.validationMessageContainer {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
